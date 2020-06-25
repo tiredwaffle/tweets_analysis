@@ -8,4 +8,6 @@ Social networks have always been and remain indicators of user mood. For example
 
 Twitter is a social network of microblogs that allows users to send short text messages (up to 280 characters) using SMS, instant messaging services and third-party client programs. Twitter has 330 million active users per month and 145 million daily Twitter users. That is, about 42% of Twitter users use the platform every day.
 
+The GetOldTweets3 library was used to collect data from the Twitter social network. GetOldTweets3 is an improvement on a branch of Jefferson Henrik's original GetOldTweets-python. The official Twitter API has a limited time limit, and it is often impossible to get tweets older than a week. Some tools provide access to old tweets, but most of them are paid. This library works directly by simulating the scrolling of a Twitter page, collecting data in JSON. The result is an advantage in being able to find the deepest old tweets. It also includes features such as retweet counting, searching multiple user accounts, etc., which allows you to specify the request.
+
 Currently, only ukrainian version of the project is available in the proper form. Though I am working on transforming it into article in english.
